@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Dana;
+    src: url("/font/dana-thin.woff") !important;
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: Dana;
+    src: url("/font/dana-light.woff") !important;
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: Dana;
+    src: url("/font/dana-regular.woff") !important;
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: Dana;
+    src: url("/font/dana-bold.woff") !important;
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: Dana;
+    src: url("/font/dana-black.woff") !important;
+    font-style: normal;
+    font-weight: 900;
+}
+
+body{
+    font-family: Dana;
+}
+
+
+header {
+    background-image: url("/img/bg-masthead.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-header{
+    margin-top: 4rem;
+    font-weight: 800;
+
+}
+
+.navbar-header {
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    border: 1px solid rgba(255, 255, 255, 0.78);
+}
+
+
+.img-body{
+    height: 480px;
+    width: 600px;
+}
+
+.people{
+    width: 192px;
+    height: 192px;
+}
+
+ul{
+    list-style: none
+}
